@@ -1,4 +1,4 @@
-# frontend-chatapp
+# ff
 
 ## Project setup
 ```
