@@ -2,9 +2,10 @@
 <div>
   <form>
     <div class="container w-50 bg-white rounded-box shadow-sm">
-        <h4 class="text-center color-text pt-4">Login</h4>
+        <b-icon icon="chevron-left" variant="info"></b-icon>
+        <h4 class="text-center color-text pt-4"> Register</h4>
         <div class="container w-75">
-          <p class="font-weight-bold">Hi, Welcome back!</p>
+          <p class="font-weight-bold mt-4">Let’s create your account!</p>
           <div class="form-group mt-4">
             <label for="exampleInputEmail1" class="text-muted">Email</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -34,7 +35,7 @@
 
 <script>
 export default {
-  name: 'formSubmit'
+  name: 'formRegister'
 }
 </script>
 
