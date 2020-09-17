@@ -14,17 +14,17 @@
             <input type="password" class="form-control" id="exampleInputPassword1">
           </div>
           <div class="text-right mt-4 mb-4">
-            <router-link to="/" ><span>Forgot password?</span></router-link>
+            <router-link to="/forgot" ><span>Forgot password?</span></router-link>
           </div>
           <div class="pb-5">
             <button type="button" class="btn btn-primary btn-lg btn-block rounded-pill color-bg mb-3">Login</button>
-            <div class="row mt-5 mb-5">
+            <div class="row mt-3 mb-2">
               <div class="border-top mt-3 col-4"></div>
               <p class="text-center col-4">Login with</p>
               <div class="border-top mt-3 col-4"></div>
             </div>
             <button type="button" class="btn btn-outline-info btn-lg btn-block rounded-pill mb-3"><img src="../../src/assets/Vector.svg" class="mb-1 mr-2">   Google</button>
-            <p class="text-center mt-5">Don’t have an account? <a href="">Sign Up</a></p>
+            <p class="text-center mt-5">Don’t have an account? <router-link to="/register">Sign Up</router-link></p>
           </div>
         </div>
     </div>
