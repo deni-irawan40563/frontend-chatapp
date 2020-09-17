@@ -5,13 +5,3 @@
     </svg>
 </div>
 </template>
-
-<script>
-export default {
-  name: 'arrowicon'
-}
-</script>
-
-<style>
-
-</style>
